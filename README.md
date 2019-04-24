@@ -10,6 +10,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Run locally with the Amplify CLI
 
+1. Install the Amplify CLI (if you get stuck, follow the [getting started](https://aws-amplify.github.io/docs/))
+
+```
+npm install -g @aws-amplify/cli
+amplify configure
+```
+
 1. After the Amplify Console deployment, clone the repo that was just forked in your account
 
   ```
