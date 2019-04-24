@@ -13,9 +13,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. After the Amplify Console deployment, clone the repo that was just forked in your account
 
   ```
-  git clone git@github.com:<username>/create-react-app-auth-amplify.git
+  git clone git@github.com:<username>/safe-content-uploads.git
 
-  cd create-react-app-auth-amplify && npm install
+  cd safe-content-uploads && yarn
   ```
 
 2. Import the backend environment deployed by the Amplify Console to your repo (the `amplify/team-provider.json` file contains information on all backend environments in your AWS account). The GIF below shows how you to copy the `amplify env import` command from the Amplify Console. 
@@ -42,5 +42,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 4. Run locally
 
   ```
-  npm start
+  yarn start
   ```
